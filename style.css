@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    /* background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143)); */
+    /* background: linear-gradient(to right, #dd1818, #333333); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background-size: cover; */
+    max-width: 100%;
+    font-family: sans-serif;
+}
+
+h1,
+#logo-container {
+    color: rgb(38,166,154);
+}
+
+#searchbutton, 
+#searchstarsasc,
+#searchstarsdesc {
+    justify-content: space-between;
+    margin-left: 15px;
+    text-align: center;
+    letter-spacing: .1px;
+}
+
+.row {
+    margin-left: 30px;
+}
+
+.collection-item {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+#showbranch {
+    font-size: 13px;
+    text-align: center;
+    text-transform: none;
+    display: inline-block;
+    border-radius: 10px;
+    height: 30%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-left: 420px;
+}
+
+span#reposname {
+    width: 350px;
+}
+
+
+
